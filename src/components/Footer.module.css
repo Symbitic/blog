@@ -1,0 +1,11 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .icons {
+    justify-content: flex-end;
+  }
+}
